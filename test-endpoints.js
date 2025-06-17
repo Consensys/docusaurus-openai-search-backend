@@ -59,7 +59,7 @@ async function testAnswerEndpoint() {
           }
         ],
         systemContext: 'Documentation for a React component library',
-        model: 'gpt-4o-mini',
+        model: 'ft:gpt-3.5-turbo-0125:web3auth:linea-support:BjMZTGhq',
         maxTokens: 1000
       })
     });

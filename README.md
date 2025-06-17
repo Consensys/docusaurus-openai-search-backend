@@ -134,7 +134,7 @@ Generates a comprehensive answer using RAG from provided documents.
     }
   ],
   "systemContext": "Documentation for a React authentication library",
-  "model": "gpt-4o-mini",
+  "model": "ft:gpt-3.5-turbo-0125:web3auth:linea-support:BjMZTGhq",
   "maxTokens": 1500
 }
 ```
@@ -144,7 +144,7 @@ Generates a comprehensive answer using RAG from provided documents.
 {
   "answer": "To authenticate users in our React library...",
   "usage": { /* OpenAI usage stats */ },
-  "model": "gpt-4o-mini"
+  "model": "ft:gpt-3.5-turbo-0125:web3auth:linea-support:BjMZTGhq"
 }
 ```
 

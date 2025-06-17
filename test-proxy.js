@@ -31,7 +31,7 @@ async function test() {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        model: 'gpt-4.1-mini',
+        model: 'ft:gpt-3.5-turbo-0125:web3auth:linea-support:BjMZTGhq',
         messages: [{ role: 'user', content: 'Say "Hello!"' }],
         max_tokens: 10
       })

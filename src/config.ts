@@ -6,12 +6,12 @@ export const DEFAULT_CONFIG = {
   // Default model settings
   models: {
     keywords: {
-      model: 'gpt-4.1-nano',
+      model: 'ft:gpt-3.5-turbo-0125:web3auth:linea-support:BjMZTGhq',
       maxTokens: 200,
       temperature: 0.3,
     },
     answer: {
-      model: 'gpt-4.1-nano',
+      model: 'ft:gpt-3.5-turbo-0125:web3auth:linea-support:BjMZTGhq',
       maxTokens: 2000,
       temperature: 0.3,
     },
